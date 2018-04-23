@@ -1,0 +1,9 @@
+signal=wgn(1,1001,1);
+plot(signal)
+xcorr_result=xcorr(signal);
+autocorr_result=autocorr(signal);
+figure(1);
+subplot(2,1,1);
+plot(xcorr_result);
+subplot(2,1,2);
+plot(autocorr_result);
